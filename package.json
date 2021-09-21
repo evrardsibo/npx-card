@@ -1,8 +1,9 @@
 {
-  "name": "npxcard",
-  "version": "1.0.0",
+  "name": "@evrard/npxcard",
+  "version": "1.0.1",
   "description": "",
   "main": "card.js",
+  "bin":{"evrard":"./card.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon card.js"
