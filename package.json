@@ -1,0 +1,30 @@
+{
+  "name": "npxcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "card.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evrardsibo/npx-card.git"
+  },
+  "author": "evrard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evrardsibo/npx-card/issues"
+  },
+  "homepage": "https://github.com/evrardsibo/npx-card#readme",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "inquirer": "^8.1.5",
+    "open": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
